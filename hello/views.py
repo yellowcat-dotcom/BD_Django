@@ -35,8 +35,6 @@ def create(request):
         brend.save()
     return HttpResponseRedirect("/")
 
-
-
 def create2(request):
     if request.method == "POST":
         stock = Stock()
